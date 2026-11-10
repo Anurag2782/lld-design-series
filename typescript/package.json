@@ -1,0 +1,15 @@
+{
+  "name": "lld-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "LLD examples in TypeScript. Runs directly on Node 22.18+ (built-in type stripping).",
+  "scripts": {
+    "start": "node src/run_all.ts",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}

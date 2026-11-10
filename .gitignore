@@ -1,0 +1,12 @@
+# build output
+java/out/
+dotnet/bin/
+dotnet/obj/
+python/__pycache__/
+**/__pycache__/
+*.pyc
+typescript/node_modules/
+node_modules/
+.idea/
+.vscode/
+*.class
